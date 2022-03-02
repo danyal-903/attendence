@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendaanceTracker", "AttendaanceTracker\AttendaanceTracker.csproj", "{C24C7646-8D73-4527-833C-3977A2CAA61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemUtilities", "SystemUtilities\SystemUtilities.csproj", "{6ED0D3A6-3A11-445A-BDFF-FE32C04E6CE8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{4C8C2A72-450C-46D5-9C4B-031D63582B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C24C7646-8D73-4527-833C-3977A2CAA61E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C24C7646-8D73-4527-833C-3977A2CAA61E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C24C7646-8D73-4527-833C-3977A2CAA61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24C7646-8D73-4527-833C-3977A2CAA61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED0D3A6-3A11-445A-BDFF-FE32C04E6CE8}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED0D3A6-3A11-445A-BDFF-FE32C04E6CE8}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{6ED0D3A6-3A11-445A-BDFF-FE32C04E6CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED0D3A6-3A11-445A-BDFF-FE32C04E6CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8C2A72-450C-46D5-9C4B-031D63582B14}.Debug|Any CPU.ActiveCfg = Debug
+		{4C8C2A72-450C-46D5-9C4B-031D63582B14}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18F38F9C-3B35-40E8-823B-650A62E7A187}
+	EndGlobalSection
+EndGlobal
